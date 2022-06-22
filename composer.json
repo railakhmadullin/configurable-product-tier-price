@@ -1,0 +1,33 @@
+{
+    "name": "railakhmadullin/configurable-product-tier-price",
+    "version": "1.0.0",
+    "description": "Magento 2 Configurable Product Tier Price",
+    "type": "magento2-module",
+    "require": {
+        "php": "^7.3",
+        "magento/framework": "*",
+        "magento/module-configurable-product": "100.*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Rail Akhmadullin",
+            "email": "rail@akhmadullin.com",
+            "homepage": "https://akhmadullin.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "magento2"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RailAkhmadullin\\ConfigurableProductTierPrice\\": ""
+        }
+    }
+}
